@@ -1,0 +1,14 @@
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:[m[K In constructor ‘[01m[KHelloRobot::HelloRobot()[m[K’:
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:15:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khello_pub[m[K’ was not declared in this scope
+   15 |       [01;31m[Khello_pub[m[K = this->create_publisher<sensor_msgs::msg::JointState>("joint_command", 10); //10 is the buffer size for the messages
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:28:20:[m[K [01;31m[Kerror: [m[K‘[01m[KSawyerRobot[m[K’ has not been declared
+   28 |         std::bind(&[01;31m[KSawyerRobot[m[K::jointCallback, this)); // second argument: the callback function that's called every time the timer triggers
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:[m[K In member function ‘[01m[Kvoid HelloRobot::jointCallback()[m[K’:
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:53:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khello_pub[m[K’ was not declared in this scope
+   53 |       [01;31m[Khello_pub[m[K->publish(joint_message); // IMPORTANT - publish the message
+      |       [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_robot_node.dir/build.make:76: CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_robot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

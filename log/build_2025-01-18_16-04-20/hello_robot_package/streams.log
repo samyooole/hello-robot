@@ -1,0 +1,10 @@
+[0.006s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o[0m
+[0.043s] [01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.043s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.043s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.043s] compilation terminated.
+[0.043s] gmake[2]: *** [CMakeFiles/hello_robot_node.dir/build.make:76: CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o] Error 1
+[0.043s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_robot_node.dir/all] Error 2
+[0.043s] gmake: *** [Makefile:146: all] Error 2
+[0.045s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16

@@ -1,0 +1,11 @@
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:[m[K In constructor ‘[01m[KHumanFollowRobot::HumanFollowRobot()[m[K’:
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:34:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_loop[m[K’ is not a member of ‘[01m[KHumanFollowRobot[m[K’
+   34 |             std::bind(&HumanFollowRobot::[01;31m[Kcontrol_loop[m[K, this)
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:[m[K In member function ‘[01m[Kvoid HumanFollowRobot::detection_callback(vision_msgs::msg::Detection2DArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_state[m[K’ was not declared in this scope
+   43 |         [01;31m[Kupdate_state[m[K();
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_robot_node.dir/build.make:76: CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_robot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

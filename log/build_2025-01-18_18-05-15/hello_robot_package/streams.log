@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[0.055s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.212s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.265s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.270s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.280s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.364s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.367s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.475s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.543s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.559s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[0.578s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.598s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.612s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.612s]   ament_target_dependencies() the first argument must be a valid target name
+[0.612s] Call Stack (most recent call first):
+[0.613s]   CMakeLists.txt:23 (ament_target_dependencies)
+[0.613s] 
+[0.613s] [0m
+[0.613s] -- Configuring incomplete, errors occurred!
+[0.613s] See also "/home/samuel/hello_robot/build/hello_robot_package/CMakeFiles/CMakeOutput.log".
+[0.619s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.621s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16

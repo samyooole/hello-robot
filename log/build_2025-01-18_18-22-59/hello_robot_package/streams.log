@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[0.345s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o[0m
+[10.055s] [100%] [32m[1mLinking CXX executable hello_robot_node[0m
+[10.633s] [100%] Built target hello_robot_node
+[10.665s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[10.683s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --install /home/samuel/hello_robot/build/hello_robot_package
+[10.695s] -- Install configuration: ""
+[10.700s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/hello_robot_node
+[10.707s] -- Set runtime path of "/home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/hello_robot_node" to ""
+[10.708s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/package_run_dependencies/hello_robot_package
+[10.709s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/parent_prefix_path/hello_robot_package
+[10.713s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/ament_prefix_path.sh
+[10.713s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/ament_prefix_path.dsv
+[10.713s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/path.sh
+[10.714s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/path.dsv
+[10.714s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.bash
+[10.714s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.sh
+[10.714s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.zsh
+[10.714s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.dsv
+[10.714s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/package.dsv
+[10.715s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/packages/hello_robot_package
+[10.716s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/cmake/hello_robot_packageConfig.cmake
+[10.716s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/cmake/hello_robot_packageConfig-version.cmake
+[10.716s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/package.xml
+[10.720s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --install /home/samuel/hello_robot/build/hello_robot_package

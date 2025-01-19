@@ -1,0 +1,39 @@
+[0.007s] Invoking command in '/home/samuel/hello_robot/src/build/hello_robot_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/samuel/hello_robot/src/build/hello_robot_package -- -j16 -l16
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.095s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.112s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.113s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.117s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.151s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.205s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.234s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.251s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.294s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.294s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/samuel/hello_robot/src/hello_robot_package/include>
+[0.294s] -- Configured cppcheck exclude dirs and/or files: 
+[0.294s] -- Added test 'lint_cmake' to check CMake code style
+[0.295s] -- Added test 'uncrustify' to check C / C++ code style
+[0.295s] -- Configured uncrustify additional arguments: 
+[0.295s] -- Added test 'xmllint' to check XML markup files
+[0.296s] -- Configuring done
+[0.316s] -- Generating done
+[0.320s] -- Build files have been written to: /home/samuel/hello_robot/src/build/hello_robot_package
+[0.341s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o[0m
+[1.810s] [01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:[m[K In constructor ‘[01m[KHelloRobot::HelloRobot()[m[K’:
+[1.810s] [01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:15:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khello_pub[m[K’ was not declared in this scope
+[1.810s]    15 |       [01;31m[Khello_pub[m[K = this->create_publisher<sensor_msgs::msg::JointState>("joint_command", 10); //10 is the buffer size for the messages
+[1.810s]       |       [01;31m[K^~~~~~~~~[m[K
+[1.823s] [01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:28:20:[m[K [01;31m[Kerror: [m[K‘[01m[KSawyerRobot[m[K’ has not been declared
+[1.823s]    28 |         std::bind(&[01;31m[KSawyerRobot[m[K::jointCallback, this)); // second argument: the callback function that's called every time the timer triggers
+[1.823s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[1.828s] [01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:[m[K In member function ‘[01m[Kvoid HelloRobot::jointCallback()[m[K’:
+[1.828s] [01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:53:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khello_pub[m[K’ was not declared in this scope
+[1.828s]    53 |       [01;31m[Khello_pub[m[K->publish(joint_message); // IMPORTANT - publish the message
+[1.828s]       |       [01;31m[K^~~~~~~~~[m[K
+[2.242s] gmake[2]: *** [CMakeFiles/hello_robot_node.dir/build.make:76: CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o] Error 1
+[2.242s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_robot_node.dir/all] Error 2
+[2.242s] gmake: *** [Makefile:146: all] Error 2
+[2.244s] Invoked command in '/home/samuel/hello_robot/src/build/hello_robot_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/samuel/hello_robot/src/build/hello_robot_package -- -j16 -l16

@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[0.050s] [100%] Built target hello_robot_node
+[0.058s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[0.065s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --install /home/samuel/hello_robot/build/hello_robot_package
+[0.069s] -- Install configuration: ""
+[0.069s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/hello_robot_node
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/package_run_dependencies/hello_robot_package
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/parent_prefix_path/hello_robot_package
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/path.sh
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/path.dsv
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.bash
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.sh
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.zsh
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.dsv
+[0.070s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/package.dsv
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/packages/hello_robot_package
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/cmake/hello_robot_packageConfig.cmake
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/cmake/hello_robot_packageConfig-version.cmake
+[0.070s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/package.xml
+[0.071s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --install /home/samuel/hello_robot/build/hello_robot_package

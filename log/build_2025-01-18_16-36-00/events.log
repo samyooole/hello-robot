@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (hello_robot_package) JobQueued: {'identifier': 'hello_robot_package', 'dependencies': OrderedDict()}
+[0.000618] (hello_robot_package) JobStarted: {'identifier': 'hello_robot_package'}
+[0.007887] (hello_robot_package) JobProgress: {'identifier': 'hello_robot_package', 'progress': 'cmake'}
+[0.008433] (hello_robot_package) JobProgress: {'identifier': 'hello_robot_package', 'progress': 'build'}
+[0.009030] (hello_robot_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/samuel/hello_robot/build/hello_robot_package', '--', '-j16', '-l16'], 'cwd': '/home/samuel/hello_robot/build/hello_robot_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'samuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/samuel'), ('OLDPWD', '/home/samuel/hello_robot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2244'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/samuel/hello_robot/install:/home/samuel/hello_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'samuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/samuelho:@/tmp/.ICE-unix/2211,unix/samuelho:/tmp/.ICE-unix/2211'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9660e3cb_e701_476b_b7b2_fa3203f5b2b4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HC8C02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/samuel/hello_robot/src/install/hello_robot_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/samuel/hello_robot/build/hello_robot_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/samuel/hello_robot/src/install/hello_robot_package:/opt/ros/humble')]), 'shell': False}
+[0.051655] (hello_robot_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_robot_node\x1b[0m\n'}
+[0.077456] (hello_robot_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o\x1b[0m\n'}
+[0.099803] (-) TimerEvent: {}
+[0.200164] (-) TimerEvent: {}
+[0.300574] (-) TimerEvent: {}
+[0.400978] (-) TimerEvent: {}
+[0.501410] (-) TimerEvent: {}
+[0.601857] (-) TimerEvent: {}
+[0.702309] (-) TimerEvent: {}
+[0.802756] (-) TimerEvent: {}
+[0.903109] (-) TimerEvent: {}
+[1.003484] (-) TimerEvent: {}
+[1.103860] (-) TimerEvent: {}
+[1.204256] (-) TimerEvent: {}
+[1.304606] (-) TimerEvent: {}
+[1.404968] (-) TimerEvent: {}
+[1.505350] (-) TimerEvent: {}
+[1.605689] (-) TimerEvent: {}
+[1.706059] (-) TimerEvent: {}
+[1.806397] (-) TimerEvent: {}
+[1.906752] (-) TimerEvent: {}
+[2.007085] (-) TimerEvent: {}
+[2.107453] (-) TimerEvent: {}
+[2.207845] (-) TimerEvent: {}
+[2.308166] (-) TimerEvent: {}
+[2.408489] (-) TimerEvent: {}
+[2.508905] (-) TimerEvent: {}
+[2.609342] (-) TimerEvent: {}
+[2.709686] (-) TimerEvent: {}
+[2.810056] (-) TimerEvent: {}
+[2.910414] (-) TimerEvent: {}
+[3.010782] (-) TimerEvent: {}
+[3.111148] (-) TimerEvent: {}
+[3.211489] (-) TimerEvent: {}
+[3.311836] (-) TimerEvent: {}
+[3.412235] (-) TimerEvent: {}
+[3.512608] (-) TimerEvent: {}
+[3.612948] (-) TimerEvent: {}
+[3.713275] (-) TimerEvent: {}
+[3.813636] (-) TimerEvent: {}
+[3.914054] (-) TimerEvent: {}
+[4.014407] (-) TimerEvent: {}
+[4.114718] (-) TimerEvent: {}
+[4.215033] (-) TimerEvent: {}
+[4.315370] (-) TimerEvent: {}
+[4.415724] (-) TimerEvent: {}
+[4.516035] (-) TimerEvent: {}
+[4.616356] (-) TimerEvent: {}
+[4.716701] (-) TimerEvent: {}
+[4.817054] (-) TimerEvent: {}
+[4.917414] (-) TimerEvent: {}
+[5.017719] (-) TimerEvent: {}
+[5.118061] (-) TimerEvent: {}
+[5.218408] (-) TimerEvent: {}
+[5.263615] (hello_robot_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_robot_node\x1b[0m\n'}
+[5.318527] (-) TimerEvent: {}
+[5.418829] (-) TimerEvent: {}
+[5.427883] (hello_robot_package) StdoutLine: {'line': b'[100%] Built target hello_robot_node\n'}
+[5.438565] (hello_robot_package) CommandEnded: {'returncode': 0}
+[5.439172] (hello_robot_package) JobProgress: {'identifier': 'hello_robot_package', 'progress': 'install'}
+[5.447735] (hello_robot_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/samuel/hello_robot/build/hello_robot_package'], 'cwd': '/home/samuel/hello_robot/build/hello_robot_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'samuel'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/samuel'), ('OLDPWD', '/home/samuel/hello_robot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2244'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/samuel/hello_robot/install:/home/samuel/hello_robot/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'samuel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'samuel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/samuelho:@/tmp/.ICE-unix/2211,unix/samuelho:/tmp/.ICE-unix/2211'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9660e3cb_e701_476b_b7b2_fa3203f5b2b4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HC8C02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/samuel/hello_robot/src/install/hello_robot_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/samuel/hello_robot/build/hello_robot_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/samuel/hello_robot/src/install/hello_robot_package:/opt/ros/humble')]), 'shell': False}
+[5.459004] (hello_robot_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.459941] (hello_robot_package) StdoutLine: {'line': b'-- Installing: /home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/hello_robot_node\n'}
+[5.464179] (hello_robot_package) StdoutLine: {'line': b'-- Set runtime path of "/home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/hello_robot_node" to ""\n'}
+[5.464533] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/package_run_dependencies/hello_robot_package\n'}
+[5.464690] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/parent_prefix_path/hello_robot_package\n'}
+[5.464806] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/ament_prefix_path.sh\n'}
+[5.464935] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/ament_prefix_path.dsv\n'}
+[5.465072] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/path.sh\n'}
+[5.465200] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/path.dsv\n'}
+[5.465662] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.bash\n'}
+[5.465959] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.sh\n'}
+[5.466107] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.zsh\n'}
+[5.466406] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.dsv\n'}
+[5.466552] (hello_robot_package) StdoutLine: {'line': b'-- Installing: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/package.dsv\n'}
+[5.466687] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/packages/hello_robot_package\n'}
+[5.466836] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/cmake/hello_robot_packageConfig.cmake\n'}
+[5.467090] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/cmake/hello_robot_packageConfig-version.cmake\n'}
+[5.467205] (hello_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/package.xml\n'}
+[5.468677] (hello_robot_package) CommandEnded: {'returncode': 0}
+[5.488219] (hello_robot_package) JobEnded: {'identifier': 'hello_robot_package', 'rc': 0}
+[5.488933] (-) EventReactorShutdown: {}

@@ -1,0 +1,13 @@
+[0.012s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[0.172s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o[0m
+[2.461s] [01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:[m[K In member function ‘[01m[Kvoid HumanFollowRobot::update_state(vision_msgs::msg::Detection2DArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.462s] [01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:63:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _center_type[m[K’ {aka ‘[01m[Kconst struct vision_msgs::msg::Pose2D_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+[2.462s]    63 |             double bbox_center_x = (detection.bbox.center.[01;31m[Kx[m[K);
+[2.462s]       |                                                           [01;31m[K^[m[K
+[2.462s] [01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:64:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _center_type[m[K’ {aka ‘[01m[Kconst struct vision_msgs::msg::Pose2D_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+[2.462s]    64 |             double bbox_center_y = (detection.bbox.center.[01;31m[Ky[m[K);
+[2.462s]       |                                                           [01;31m[K^[m[K
+[5.106s] gmake[2]: *** [CMakeFiles/hello_robot_node.dir/build.make:76: CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o] Error 1
+[5.106s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_robot_node.dir/all] Error 2
+[5.106s] gmake: *** [Makefile:146: all] Error 2
+[5.109s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(ros2_venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2_venv) /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16

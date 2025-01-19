@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o[0m
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:[m[K In member function ‘[01m[Kvoid HumanFollowRobot::update_state(vision_msgs::msg::Detection2DArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:63:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _center_type[m[K’ {aka ‘[01m[Kconst struct vision_msgs::msg::Pose2D_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+   63 |             double bbox_center_x = (detection.bbox.center.[01;31m[Kx[m[K);
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:64:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _center_type[m[K’ {aka ‘[01m[Kconst struct vision_msgs::msg::Pose2D_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+   64 |             double bbox_center_y = (detection.bbox.center.[01;31m[Ky[m[K);
+      |                                                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/hello_robot_node.dir/build.make:76: CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_robot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

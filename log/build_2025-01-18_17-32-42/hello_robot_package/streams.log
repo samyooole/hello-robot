@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[0.031s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.145s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.172s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.179s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.234s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.235s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.369s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.381s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[0.396s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.426s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.441s] -- Configuring done
+[0.450s] -- Generating done
+[0.453s] -- Build files have been written to: /home/samuel/hello_robot/build/hello_robot_package
+[0.475s] [35m[1mConsolidate compiler generated dependencies of target hello_robot_node[0m
+[0.496s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o[0m
+[8.375s] [100%] [32m[1mLinking CXX executable hello_robot_node[0m
+[8.808s] [100%] Built target hello_robot_node
+[8.827s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[8.834s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/samuel/hello_robot/build/hello_robot_package
+[8.840s] -- Install configuration: ""
+[8.841s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/hello_robot_node
+[8.845s] -- Set runtime path of "/home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/hello_robot_node" to ""
+[8.845s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/human_det_node.py
+[8.847s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/samuel/hello_robot/build/hello_robot_package

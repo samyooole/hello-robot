@@ -1,0 +1,7 @@
+[01m[K/home/samuel/hello_robot/src/hello_robot_package/src/hello_robot_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kvision_msgs/msg/detection2_d_array.hpp: No such file or directory
+    3 | #include [01;31m[K"vision_msgs/msg/detection2_d_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hello_robot_node.dir/build.make:76: CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_robot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.149s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.176s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.178s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.185s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.238s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.382s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.405s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.474s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.474s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/samuel/hello_robot/src/hello_robot_package/include>
+[0.474s] -- Configured cppcheck exclude dirs and/or files: 
+[0.474s] -- Added test 'lint_cmake' to check CMake code style
+[0.475s] -- Added test 'uncrustify' to check C / C++ code style
+[0.475s] -- Configured uncrustify additional arguments: 
+[0.475s] -- Added test 'xmllint' to check XML markup files
+[0.476s] -- Configuring done
+[0.498s] -- Generating done
+[0.502s] -- Build files have been written to: /home/samuel/hello_robot/build/hello_robot_package
+[0.524s] [35m[1mConsolidate compiler generated dependencies of target hello_robot_node[0m
+[0.548s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_robot_node.dir/src/hello_robot_node.cpp.o[0m
+[4.664s] [100%] [32m[1mLinking CXX executable hello_robot_node[0m
+[4.837s] [100%] Built target hello_robot_node
+[4.847s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/samuel/hello_robot/build/hello_robot_package -- -j16 -l16
+[4.856s] Invoking command in '/home/samuel/hello_robot/build/hello_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/samuel/hello_robot/build/hello_robot_package
+[4.862s] -- Install configuration: ""
+[4.862s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/hello_robot_node
+[4.865s] -- Set runtime path of "/home/samuel/hello_robot/install/hello_robot_package/lib/hello_robot_package/hello_robot_node" to ""
+[4.865s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/package_run_dependencies/hello_robot_package
+[4.865s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/parent_prefix_path/hello_robot_package
+[4.865s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/ament_prefix_path.sh
+[4.865s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/ament_prefix_path.dsv
+[4.865s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/path.sh
+[4.865s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/environment/path.dsv
+[4.865s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.bash
+[4.865s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.sh
+[4.865s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.zsh
+[4.865s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/local_setup.dsv
+[4.866s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/package.dsv
+[4.866s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/ament_index/resource_index/packages/hello_robot_package
+[4.866s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/cmake/hello_robot_packageConfig.cmake
+[4.866s] -- Up-to-date: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/cmake/hello_robot_packageConfig-version.cmake
+[4.866s] -- Installing: /home/samuel/hello_robot/install/hello_robot_package/share/hello_robot_package/package.xml
+[4.868s] Invoked command in '/home/samuel/hello_robot/build/hello_robot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/samuel/hello_robot/build/hello_robot_package
